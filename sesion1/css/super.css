@@ -1,0 +1,184 @@
+* {
+	
+}
+
+body {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.page {
+	background-color: #ffffcc;
+}
+
+header {
+	background-color: #ff751a;
+	box-shadow: 1px 3px 3px grey;
+}
+
+.header_logo {
+	float: left;
+	width: 40%;
+	height: 10rem;
+	margin: 0;
+}
+
+h1 {
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	height: 252px;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1rem;
+}
+
+.header_search {
+	padding: 2rem;
+	margin: 0;
+	text-align: right;
+}
+
+.header_nav {
+	padding: 2rem;
+	margin: 0;
+	text-align: right;
+}
+
+header button {
+	display: inline-block;
+	border: none;
+}
+
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+nav li {
+	float: left;
+	color: white;
+	background-color: #ffcc99;
+	display: inline-block;
+	margin: 0;
+	padding-left: 2rem;
+	padding-top: 0.75rem;
+	padding-right: 2rem;
+	padding-bottom: 0.75rem;
+	
+}
+
+nav a {
+	text-decoration: none;
+}
+
+main {
+	padding: 3rem 0.5rem 2rem 0.5rem;
+}
+
+article {
+	width: 66%;
+	float: left;
+}
+
+article img {
+	width: 100%;
+}
+
+aside {
+	width: 34%;
+	float: right;
+	padding-left: 0.75rem;
+	margin-bottom: 0.75rem;
+}
+
+footer {
+	color: white;
+	background-color: grey;
+}
+
+footer .left {
+	width: 60%;
+	float: left;
+}
+
+footer .legal {
+	float: right;
+	text-align: right;
+	padding: 1rem;
+}
+
+footer .a {
+	color: white;
+}
+
+footer .media {
+	text-align: right;
+	padding: 1rem;
+}
+
+.media_button {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	height: 45px;
+}
+
+.clear {
+	clear: both;
+}
+
+.contact_main {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-align:center;
+}
+
+.btn_contact_send {
+	background-color: orange;
+	color: white;
+	border: none;
+	border-radius: 0.25rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+hr {
+	border-color: orange;
+}
+
+.comentarios {
+	text-align: left;
+}
+
+.comentarios>textarea {
+	border-color: orange;
+	border-radius: 0.25rem;
+	width: 100%;
+}
+
+.aficiones {
+	width: 50%;
+	float: left;
+}
+
+select {
+	width: 14rem;
+	border-color: orange;
+	border-radius: 0.25rem;
+}
